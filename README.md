@@ -23,7 +23,7 @@
 
 
 ## build
-基于tonymac网站的install guide，使用unibeast和multibeast安装；hackintosh对新的8代9代intel芯片组支持度很好，没有什么大的问题。我的用途是办公和日常使用，不纠结具体的facetime之类的。我的硬件如下：
+基于tonymac网站的install guide，使用unibeast和multibeast安装；hackintosh对新的8代9代intel芯片组支持度很好，没有什么大的问题。我的用途是办公和日常使用，不纠结具体的facetime之类的，icloud正常就行了。我的硬件如下(换个i5-8500打败iMac2019的基本款配置? ！以2019年5月份硬件报价估计3k不到😂)：
 
 |hardware|spec|
 |-|-|
