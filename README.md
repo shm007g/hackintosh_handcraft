@@ -1,2 +1,55 @@
-# hackintosh-msi-b360m-i3-8100-rx570
-hackintosh macos10.14.5 with msi-b360, i3-8100, rx570
+
+
+## update
+#### 20190519：新增硬件检测；升级到mojave10.14.5
+看了pcbeta的帖子很多人都有硬件检测我就找了找
+  - 新增HWMonitor和相关的kexts，主要是为了看温度
+  - 新增VideoProc查看硬件解码(当然是都ok啦)
+  - CPU-S, intel(R) Power Gadge查看系统cpu变频之类的
+  - 不小心点开的系统升级，导致后续一直有个小红点在Preference上，于是升级；
+    - Clover版本过低可能引发错误：因为我最近使用了最新的Multibeast做的Clover引导，版本4920很新；
+    - kexts版本过低可能引发错误：从CCG里面看kexts也都很新；
+    - 系统更新报错(An error occurred while installing the selected updates)：下载macos combo更新来安装；升级过程开启了-v查看细节，基本无人值守可以自行安装完成；
+    - 更新细节：更新中会有一个新的 `Install MAC` clover boot选项，更新中会自动进入这个2次吧，最后这个选项消失，更新就完成了；然后CLover boot选项会变得和之前一样。
+#### 20190517：修复无法预览jpg图片错误
+预览要集成显卡的硬解功能
+  - 我的i3-8100有集成显卡的，于是在bios里面开启igpu就可以了。
+  - 网上的教程是把smbios改成不带集成显卡的机器，然后用NoVPAJpeg.kext来fix。
+
+#### 20190517：修复shutdown reboots(关机重启)错误
+最近升级了一次bios、升级了一次clover，然后开机变重启了，试了好久找到了方案：
+  - bios降级(网络有人说msi b360板子有这个问题，这个我觉得不是必要的)；
+  - 进入/EFI/CLOVER/drivers64UEFI；删除AptioMemoryFix-64.efi，添加OsxAptioFix2Drv-free2000.efi和EmuVariableUefi-64.efi；同时修改config.plist的boot模块添加slide=0。
+
+
+## build
+基于tonymac网站的install guide，使用unibeast和multibeast安装；hackintosh对新的8代9代intel芯片组支持度很好，没有什么大的问题。我的用途是办公和日常使用，不纠结具体的facetime之类的。我的硬件如下：
+
+|hardware|spec|
+|-|-|
+|cpu |intel i3-8100|
+|motherboard|msi b360m fire(18*22)|
+|GPU|盈通rx570 4g|
+|memory| 海盗船 复仇者 DDR4-2400 8G * 2|
+|ssd|intel 760p 256g nvme|
+|HDD|WD blue 1T， 7200RPM, 65M cache HDD|
+|wifi|comfast CF-915AC usb wifi(driver free on old macOS)|
+|system|macOS 10.14.2|
+
+**注意**：
+1. multibeast原生会把kext安装到/L/E下面，为了保持kexts的稳定性，我建议把所有驱动搬迁到/EFI/CLOVER/Kexts/$(version)下面去;
+2. 调整kexts后最好重建下kext缓存，以免开机起不来之类的；操作指令`sudo kextcache -i /`。网上有很多用Kext Utility操作的，我看日志应该和kextcache操作原理差不多。
+
+## last build
+下面是上一套我用来hackintosh的老硬件，完全免驱，tonymac的工具直接驱动，无需做任何修改和驱动处理。捡垃圾的话，十分便宜，估计1k，日常使用无忧。
+
+- intel core i3-3220
+- Asus B75M-A
+- Kingston DDR3-1600 4G*2
+- 七彩虹 GTX 650Ti
+- WD 1T, 5400rpm HDD(其实系统加载完以后真的不算卡比起老版的imac)
+
+## macos spec
+- neofetch: 查看系统spec
+- 查看cpu核心数:`sysctl hw.physicalcpu`, `sysctl hw.logicalcpu`
+- 查看空余内存: `alias free="top -l 1 -s 0 | grep PhysMem"`
