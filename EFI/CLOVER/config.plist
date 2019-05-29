@@ -238,7 +238,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>tonymacx86</string>
+		<string>FlatCamp</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -406,6 +406,8 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>71796EC5-41F6-58A4-9697-3172C33A414E</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
