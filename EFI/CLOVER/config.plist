@@ -153,11 +153,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 slide=0 nv_disable=1</string>
+		<string>dart=0 slide=0 nv_disable=1 -v</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>macos</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>Secure</key>
@@ -236,9 +236,9 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>2560x1080</string>
+		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Bootcamp2k</string>
+		<string>Simple</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
