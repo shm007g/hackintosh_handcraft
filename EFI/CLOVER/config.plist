@@ -216,6 +216,7 @@
 			<string>Windows</string>
 			<string>BOOTX64.EFI</string>
 			<string>Preboot</string>
+			<string>Recovery</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -238,7 +239,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Simple</string>
+		<string>Minimalism</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
