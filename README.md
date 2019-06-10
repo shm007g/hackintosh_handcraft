@@ -32,7 +32,7 @@
   - 进入/EFI/CLOVER/drivers64UEFI；删除AptioMemoryFix-64.efi，添加OsxAptioFix2Drv-free2000.efi 和 EmuVariableUefi-64.efi；同时修改config.plist的boot模块添加slide=0。
 
 ## My Hackintosh iMac Desktop
-- 基于tonymac网站的 install guide，使用unibeast-9.2.0和multibeast-11.2.0安装；
+- 基于tonymac网站的 install guide，使用unibeast-9.2.0和multibeast-11.2.0安装；没有做集成显卡id的注入，没有做ssdt/dsdt，EFI的适用性更强；**请各位换一个自己的smbios id再使用**。
 - hackintosh对新的8代9代intel芯片组支持度很好，没有什么大的问题。
 - 我的用途是办公和日常使用，不纠结具体的facetime之类的，icloud正常就行了。
 - 我的硬件如下(换个i5-8500打败iMac2019的基本款配置😂，价格大概是1/5~1/4左右)：
