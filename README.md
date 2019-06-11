@@ -7,8 +7,10 @@
 
 #### 20190610：升级clover，主题精简
   - 使用multibeast-11.3.0升级clover到r4934
-  - 主题仅保留一个最简的Minimalism主题
   - 新增thinkpad e450/t450 Laptop的EFI，见t450分支
+  - 主题仅保留一个最简的Minimalism主题
+
+![](EFI/CLOVER/themes/Minimalism/screenshot.png)
 
 #### 20190519：新增硬件检测
   - 新增Applications文件夹，存放硬件检测软件，还有时钟主题
