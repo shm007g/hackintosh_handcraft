@@ -5,25 +5,16 @@
 
 ## Hackintosh Desktop Build
 ![](EFI/CLOVER/doc/imac_info_neofetch.png)
-
-- 此EFI为个人使用和持续更新，直到升级换代。
-- 基于8代intel平台搭建，最新的Clover和kexts驱动，支持直接升级macos10.14.5；
-- 用途是写代码、日常娱乐。现在运行稳定、硬解OK、睡眠正常、HWMonitor温度正常，已满足我的需求。
+- 此EFI为个人使用和持续更新，直到升级换代。用途是写代码、日常娱乐。现在运行稳定、硬解OK、睡眠正常、声卡网卡OK、HWMonitor温度正常。
+- 基于8代intel平台搭建，最新的Clover和kexts驱动，可直接升级macos10.14.5。
+  - i3-8100 (换i5-8500可改SMBIOS为iMac19.1)
+  - MSI B360m Fire
+  - 盈通 RX570 4g
+  - 海盗船 DDR4-2400 8G*2
+  - 760p 256g nvme ssd + 西数1T蓝盘
+  - CF-915AC USB WIFI
+  - MacOS 10.14.5，7B53v14(BIOS)，r4934(CLOVER)
 - 基于tonymac的install guide，使用unibeast和multibeast安装；没有做集成显卡id的注入，没有做ssdt/dsdt，定制少。相似硬件的朋友可以参考使用(需先按照guide设置好BIOS)，**使用的时候请在CCG中换一个SMBIOS再使用**。
-- 有更高需求的可以换个i5-8500之类的CPU，配置就相当于iMac2019基本款了，价格大概是1/5~1/4左右：
-
-  |hardware|spec|
-  |-|-|
-  |CPU|Intel i3-8100|
-  |主板|MSI B360m Fire|
-  |显卡|盈通 RX570 4g|
-  |内存| 海盗船 DDR4-2400 8G*2|
-  |硬盘|Intel 760p 256g nvme ssd|
-  |机械硬盘|西数蓝盘1T|
-  |无线网络|CF-915AC USB WIFI|
-  |系统|MacOS 10.14.5|
-  |BIOS|7B53v14|
-  |CLOVER|r4934|
 
 #### 一点心得
 1. multibeast原生会把kext安装到/L/E下面，为了保持kexts的稳定性，我建议把所有驱动搬迁到/EFI/CLOVER/Kexts/$(version)下面去，让驱动和引导和系统文件分开保存；
