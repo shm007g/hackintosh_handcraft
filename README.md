@@ -12,16 +12,16 @@
 
   |hardware|spec|
   |-|-|
-  |CPU|Intel i3-8100|
-  |主板|MSI B360m Fire|
-  |显卡|盈通 RX570 4g|
-  |内存| 海盗船 DDR4-2400 8G*2|
-  |硬盘|Intel 760p 256g nvme ssd|
-  |机械硬盘|西数蓝盘1T|
-  |无线网络|CF-915AC USB WIFI|
-  |系统|MacOS 10.14.5|
-  |BIOS|7B53v14|
-  |CLOVER|r4934|
+  |系统| MacOS 10.14.5 + Windows 10 |
+  |处理器| Intel Core i3-8100 @ 3.6GHz |
+  |主板| MSI B360m Fire |
+  |内存| Corsair 8*2 G DDR4-2400 |
+  |硬盘| Intel 760P 256G NVMe + WD 1T HDD |
+  |显卡| Yeston Radeon RX570 4G GDDR5|
+  |无线网络| CF-915AC USB WIFI |
+  |声卡| Realtek® ALC887 Codec |
+  |BIOS| 7B53v14 |
+  |CLOVER| r4934 |
 
 #### 一点心得
 1. multibeast原生会把kext安装到/L/E下面，为了保持kexts的稳定性，我建议把所有驱动搬迁到/EFI/CLOVER/Kexts/$(version)下面去，让驱动和引导和系统文件分开保存；
@@ -61,7 +61,7 @@
   - 进入/EFI/CLOVER/drivers64UEFI；删除AptioMemoryFix-64.efi，添加OsxAptioFix2Drv-free2000.efi 和 EmuVariableUefi-64.efi；同时修改config.plist的boot模块添加slide=0。
 
 ## Hackintosh MBP Laptop
-thinkpad t450/e450，基于pcbeata的一些dsdt制作的。参考t450分支。
+Thinkpad T450/E450, i5-5300u, 16G, Macos10.14.5，基于pcbeata的一些dsdt制作的。参考t450分支。
 
 ## Last Build
 上一套我用来hackintosh的老硬件，完全免驱，tonymac的工具直接驱动，无需做任何修改和驱动处理。捡垃圾的话，十分便宜，估计1k，日常使用无忧。
