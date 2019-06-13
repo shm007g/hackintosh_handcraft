@@ -5,23 +5,23 @@
 
 ## Hackintosh Desktop Build
 ![](EFI/CLOVER/doc/imac_info_neofetch.png)
-- 此EFI为个人使用和持续更新，直到升级换代。目前声卡、网卡、硬解、睡眠、HWMonitor温度检测均正常，自2018.12使用至今。
-- 基于8代intel平台搭建，最新的Clover和kexts驱动，支持直接升级macos10.14.5。
-- 基于tonymac的install guide，使用unibeast和multibeast构建；没有做集成显卡id的注入，没有做ssdt/dsdt，定制少。相似硬件的朋友可以参考使用(需先按照guide设置好BIOS)，**使用的时候请在CCG中换一个SMBIOS再使用**。
-- 有更高需求的可以换个i5-8500之类的CPU，配置就相当于iMac2019基本款了，价格大概是1/5~1/4左右：
 
-  |hardware|spec|
-  |-|-|
-  |系统| MacOS 10.14.5 + Windows 10 |
-  |处理器| Intel Core i3-8100 @ 3.6GHz |
-  |主板| MSI B360m Fire |
-  |内存| Corsair 8*2 G DDR4-2400 |
-  |硬盘| Intel 760P 256G NVMe + WD 1T HDD |
-  |显卡| Yeston Radeon RX570 4G GDDR5|
-  |无线网络| CF-915AC USB WIFI |
-  |声卡| Realtek® ALC887 Codec |
-  |BIOS| 7B53v14 |
-  |CLOVER| r4934 |
+|hardware|spec|
+|-|-|
+|系统| MacOS 10.14.5 + Windows 10 |
+|处理器| Intel Core i3-8100 @ 3.6GHz |
+|主板| MSI B360m Fire |
+|内存| Corsair 8*2 G DDR4-2400 |
+|硬盘| Intel 760P 256G NVMe + WD 1T HDD |
+|显卡| Yeston Radeon RX570 4G GDDR5|
+|无线网络| CF-915AC USB WIFI |
+|声卡| Realtek® ALC887 Codec |
+|BIOS| 7B53v14 |
+|CLOVER| r4934 |
+
+- 此EFI为个人使用和持续更新，直到升级换代。目前声卡、网卡、硬解、睡眠、HWMonitor温度检测均正常。
+- 基于8代intel平台搭建，最新的Clover和kexts驱动，支持直接升级macos10.14.5。配置匹配iMac2019 4K版，价格约为1/5。
+- 基于tonymac的install guide，使用unibeast和multibeast构建；没有做集成显卡id的注入，没有做ssdt/dsdt，定制少。相似硬件的朋友可以参考使用(需先按照guide设置好BIOS)，**使用的时候请在CCG中换一个SMBIOS再使用**。
 
 #### 一点心得
 1. multibeast原生会把kext安装到/L/E下面，为了保持kexts的稳定性，我建议把所有驱动搬迁到/EFI/CLOVER/Kexts/$(version)下面去，让驱动和引导和系统文件分开保存；
