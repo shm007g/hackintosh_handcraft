@@ -20,7 +20,7 @@
 |CLOVER| r4934 |
 
 - 此EFI为个人使用和持续更新，直到升级换代。目前声卡、网卡、硬解、睡眠、HWMonitor温度检测均正常。
-- 基于8代intel平台搭建，最新的Clover和kexts驱动，支持直接升级macos10.14.5。配置匹配iMac2019 4K版，价格约为1/5。
+- 基于8代intel平台搭建，最新的Clover和kexts驱动，支持直接升级macos10.14.5。配置匹配iMac2019 4K版，价格约为1/4。
 - 基于tonymac的install guide，使用unibeast和multibeast构建；没有做集成显卡id的注入，没有做ssdt/dsdt，定制少。相似硬件的朋友可以参考使用(需先按照guide设置好BIOS)，**使用的时候请在CCG中换一个SMBIOS再使用**。
 
 #### 一点心得
