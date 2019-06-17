@@ -14,7 +14,7 @@
 |内存| Corsair 8*2 G DDR4-2400 |
 |硬盘| Intel 760P 256G NVMe + WD 1T HDD |
 |显卡| Yeston Radeon RX570 4G GDDR5|
-|无线网络| CF-915AC USB WIFI |
+|无线网络| CF-915AC/CF-811AC USB WIFI |
 |声卡| Realtek® ALC887 Codec |
 |BIOS| 7B53v14 |
 |CLOVER| r4934 |
