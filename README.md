@@ -30,6 +30,10 @@
 
 ## update log
 
+#### 20190617：升级usb wifi网卡驱动
+  - CF-915AC新版本的驱动都无法稳定支持5G，请使用`Apps/EW-7811Un_Mac_driver_v1.0.1.4.zip`
+  - CF-811AC新版的驱动都可以用，更小更便宜，请使用`Apps/RTLWlanU_MacOS10.9_MacOS10.14_Driver_1830.20.b31_1827.4.b32_UI_5.0.8.b4.zip`，另[官方下载地址](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=335)
+
 #### 20190610：升级clover，主题精简
   - 使用multibeast-11.3.0升级clover到r4934
   - 新增thinkpad e450/t450 Laptop的EFI，见t450分支
