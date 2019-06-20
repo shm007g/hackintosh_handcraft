@@ -17,10 +17,12 @@
   .XMMMMMMMMMMMMMMMMMMMMMMMMK.   Terminal Font: SFMono-Regular 
     kMMMMMMMMMMMMMMMMMMMMMMd     CPU: Intel i3-8100 (4) @ 3.60GHz 
      ;KMMMMMMMWXXWMMMMMMMk.      GPU: Intel UHD Graphics 630 
-       .cooc,.    .,coo:.        Memory: 5164MiB / 16384MiB 
-
-                                                         
+       .cooc,.    .,coo:.        Memory: 5164MiB / 16384MiB
+                             
 ```
+- GeekBench 4 ~ CPU Benchmark: https://browser.geekbench.com/v4/cpu/13600063
+- GeekBench 4 ~ Compute Benchmark: https://browser.geekbench.com/v4/compute/4191857
+
 
 |hardware|spec|
 |-|-|
