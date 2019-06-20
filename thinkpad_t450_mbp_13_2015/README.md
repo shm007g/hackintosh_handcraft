@@ -1,6 +1,24 @@
 ## Hackintosh Build: MBP 13 2015
 
-![](./mbp_13_2015_info.png)
+```
+                    'c.          szymon@macbook2015.local
+                 ,xNMM.          ------------------------
+               .OMMMMo           OS: macOS Mojave 10.14.5 18F132 x86_64
+               OMMM0,            Host: Hackintosh (SMBIOS: MacBookPro12,1)
+     .;loddo:' loolloddol;.      Kernel: 18.6.0
+   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 1 hour, 52 mins
+ .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 42 (brew)
+ XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: bash 3.2.57
+;MMMMMMMMMMMMMMMMMMMMMMMM:       Resolution: 1600x900
+:MMMMMMMMMMMMMMMMMMMMMMMM:       DE: Aqua
+.MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: Quartz Compositor
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.    WM Theme: Blue (Light)
+ .XMMMMMMMMMMMMMMMMMMMMMMMMMMk   Terminal: iTerm2
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.   Terminal Font: Monaco 12
+    kMMMMMMMMMMMMMMMMMMMMMMd     CPU: Intel i5-5300U (4) @ 2.30GHz
+     ;KMMMMMMMWXXWMMMMMMMk.      GPU: Intel HD Graphics 5500
+       .cooc,.    .,coo:.        Memory: 5475MiB / 16384MiB
+```
 
 |hardware|spec|
 |-|-|
