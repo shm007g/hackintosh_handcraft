@@ -7,11 +7,12 @@
 ### 已有Build：
 - iMac 4K 2019:
 
-![](./msi_b360m_i3_8100_rx570_imac_4k_2019/imac_info_neofetch.png)
+![](./msi_b360m_i3_8100_rx570_imac_4k_2019/imac_4k_2019_info.png)
 - Macmini 2018:
 待更新
 - MBP13 2015:
-待更新
+
+![](thinkpad_t450_mbp_13_2015/mbp_13_2015_info.png)
 - 以前用的老平台
   - 完全免驱动，未记录EFI，tonymac的工具直接驱动，无需做任何修改和驱动处理。捡垃圾的话，十分便宜，估计1k，日常使用无忧。
     - intel core i3-3220

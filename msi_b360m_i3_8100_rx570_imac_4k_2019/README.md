@@ -1,6 +1,6 @@
 ## Hackintosh Build: iMac 4K 2019
 
-![](./imac_info_neofetch.png)
+![](./imac_4k_2019_info.png)
 
 |hardware|spec|
 |-|-|

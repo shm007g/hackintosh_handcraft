@@ -1,5 +1,7 @@
 ## Hackintosh Build: MBP 13 2015
 
+![](./mbp_13_2015_info.png)
+
 |hardware|spec|
 |-|-|
 |系统| MacOS 10.14.5 + Windows 10 |
