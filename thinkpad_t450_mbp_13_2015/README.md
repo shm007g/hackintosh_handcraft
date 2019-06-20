@@ -25,7 +25,7 @@
 |系统| MacOS 10.14.5 + Windows 10 |
 |品名| ThinkPad T450 |
 |处理器| Intel Core i5-5300u @ 2.3GHz |
-|内存| 8*2 G DDR3-1600 |
+|内存| 8*2G DDR3-1600 |
 |硬盘| BIWIN msata 256G + 500G HDD |
 |显卡| Intel HD Graphics 5500 1536 MB|
 |无线网络| CF-915AC/CF-811AC USB WIFI |

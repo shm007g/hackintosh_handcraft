@@ -7,7 +7,7 @@
 |系统| MacOS 10.14.5 + Windows 10 |
 |处理器| Intel Core i3-8100 @ 3.6GHz |
 |主板| MSI B360m Fire |
-|内存| Corsair 8*2 G DDR4-2400 |
+|内存| Corsair 8*2G DDR4-2400 |
 |硬盘| Intel 760P 256G NVMe + WD 1T HDD |
 |显卡| Yeston Radeon RX570 4G GDDR5|
 |无线网络| CF-915AC/CF-811AC USB WIFI |
