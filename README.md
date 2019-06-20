@@ -6,7 +6,8 @@
 
 ### 已有Build：
 - iMac 4K 2019:
-![](msi_b360M_i3_8100_rx570_imac_4k_2019/imac_info_neofetch.png)
+
+![](./msi_b360m_i3_8100_rx570_imac_4k_2019/imac_info_neofetch.png)
 - Macmini 2018:
 待更新
 - MBP13 2015:
