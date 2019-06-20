@@ -165,12 +165,12 @@
 		<key>Timeout</key>
 		<integer>1</integer>
 		<key>XMPDetection</key>
-		<false/>
+		<string>Yes</string>
 	</dict>
 	<key>CPU</key>
 	<dict>
 		<key>HWPEnable</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -181,27 +181,10 @@
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>ATI</key>
-			<string>0x0</string>
-			<key>IMEI</key>
-			<string>0x0</string>
-			<key>IntelGFX</key>
-			<string>0x0</string>
-			<key>LAN</key>
-			<string>0x0</string>
-			<key>NVidia</key>
-			<string>0x0</string>
-			<key>SATA</key>
-			<string>0x0</string>
-			<key>WIFI</key>
-			<string>0x0</string>
-			<key>XHCI</key>
-			<string>0x0</string>
-		</dict>
 		<key>USB</key>
 		<dict>
+			<key>AddClockID</key>
+			<true/>
 			<key>FixOwnership</key>
 			<true/>
 			<key>Inject</key>
@@ -241,8 +224,6 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
-		<key>ScreenResolution</key>
-		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>Minimalism</string>
 	</dict>
@@ -360,6 +341,10 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x3</string>
+		<key>ROM</key>
+		<data>
+		Z4fYDa7E
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -413,7 +398,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>39EDFF3B-68E6-5125-A48F-C025DB5EC69F</string>
+		<string>BFAB6335-7466-5052-8EF5-DC902CEA24C0</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>

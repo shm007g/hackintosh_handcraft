@@ -20,9 +20,6 @@
        .cooc,.    .,coo:.        Memory: 5164MiB / 16384MiB
                              
 ```
-- GeekBench 4 ~ CPU Benchmark: https://browser.geekbench.com/v4/cpu/13600063
-- GeekBench 4 ~ Compute Benchmark: https://browser.geekbench.com/v4/compute/4191857
-
 
 |hardware|spec|
 |-|-|
