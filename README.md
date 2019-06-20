@@ -4,11 +4,12 @@
 
 这是一个我个人使用、持续更新维护的构建列表，每一种构建点击进去可以查看详情。
 
-### 已有Build：
-- iMac 4K 2019:
+## 已有Build：
+### iMac 4K 2019:
 
 ![](./msi_b360m_i3_8100_rx570_imac_4k_2019/imac_4k_2019_info.png)
-- Macmini 2018:
+
+### Macmini 2018:
 
 ```
                     'c.          shm@macmini.local 
@@ -32,7 +33,7 @@
                                                          
 ```
 
-- MBP13 2015:
+### MBP13 2015:
 
 ```
                     'c.          szymon@macbook2015.local
@@ -54,7 +55,7 @@
        .cooc,.    .,coo:.        Memory: 5475MiB / 16384MiB
 ```
 
-- 以前用的老平台
+### 以前用的老平台
   - 完全免驱动，未记录EFI，tonymac的工具直接驱动，无需做任何修改和驱动处理。捡垃圾的话，十分便宜，估计1k，日常使用无忧。
     - intel core i3-3220
     - Asus B75M-A
@@ -63,7 +64,7 @@
     - WD 1T, 5400rpm HDD(其实系统加载完以后真的不算卡比起老版的imac)
   - 同理还可以用e3 1230等便宜量足的U提升性价比。
 
-### 辅助工具
+## 辅助工具
 - mac_utils: 提供一些驱动、硬件检测应用等工具。
 - neofetch: 查看系统spec
 - 查看cpu核心数: `sysctl hw.physicalcpu`, `sysctl hw.logicalcpu`
