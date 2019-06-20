@@ -1,6 +1,6 @@
 ## Hackintosh Build: iMac 4K 2019
 
-![](EFI/CLOVER/doc/imac_info_neofetch.png)
+![](./imac_info_neofetch.png)
 
 |hardware|spec|
 |-|-|
