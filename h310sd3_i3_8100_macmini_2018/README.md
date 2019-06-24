@@ -43,3 +43,5 @@
 
 #### 20190620：稳定构建
   - 在tonymac tools安装和驱动安装完毕后，基于pcbeta某大神在config.plist中设定的dsdt patch，完成构建。
+
+![](./L65_deskmini.gif)
