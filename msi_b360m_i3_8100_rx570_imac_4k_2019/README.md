@@ -1,7 +1,5 @@
 ## Hackintosh Build: iMac 4K 2019
 
-![](./imac_4k_2019_info.png)
-
 |hardware|spec|
 |-|-|
 |系统| MacOS 10.14.5 + Windows 10 |

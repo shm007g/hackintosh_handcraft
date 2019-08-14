@@ -1,26 +1,5 @@
 ## Hackintosh Build: Macmini 2018
 
-```
-                    'c.          shm@macmini.local 
-                 ,xNMM.          ----------------- 
-               .OMMMMo           OS: macOS Mojave 10.14.4 18E226 x86_64 
-               OMMM0,            Host: Hackintosh (SMBIOS: Macmini8,1) 
-     .;loddo:' loolloddol;.      Kernel: 18.5.0 
-   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 28 mins 
- .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 36 (brew) 
- XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: bash 3.2.57 
-;MMMMMMMMMMMMMMMMMMMMMMMM:       Resolution: 2560x1080 
-:MMMMMMMMMMMMMMMMMMMMMMMM:       DE: Aqua 
-.MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: Quartz Compositor 
- kMMMMMMMMMMMMMMMMMMMMMMMMWd.    WM Theme: Blue (Light) 
- .XMMMMMMMMMMMMMMMMMMMMMMMMMMk   Terminal: Apple_Terminal 
-  .XMMMMMMMMMMMMMMMMMMMMMMMMK.   Terminal Font: SFMono-Regular 
-    kMMMMMMMMMMMMMMMMMMMMMMd     CPU: Intel i3-8100 (4) @ 3.60GHz 
-     ;KMMMMMMMWXXWMMMMMMMk.      GPU: Intel UHD Graphics 630 
-       .cooc,.    .,coo:.        Memory: 5164MiB / 16384MiB
-                             
-```
-
 |hardware|spec|
 |-|-|
 |系统| MacOS 10.14.4 |
