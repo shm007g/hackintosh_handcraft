@@ -9,10 +9,10 @@
 ```
                     'c.          szymon@iMac.local
                  ,xNMM.          -----------------
-               .OMMMMo           OS: macOS Mojave 10.14.5 18F132 x86_64
+               .OMMMMo           OS: macOS Mojave 10.14.6 18G87 x86_64
                OMMM0,            Host: Hackintosh (SMBIOS: iMac19,2)
-     .;loddo:' loolloddol;.      Kernel: 18.6.0
-   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 2 hours, 14 mins
+     .;loddo:' loolloddol;.      Kernel: 18.7.0
+   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 4 mins
  .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 44 (brew)
  XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: bash 3.2.57
 ;MMMMMMMMMMMMMMMMMMMMMMMM:       Resolution: 2560x1080@2x
@@ -23,7 +23,7 @@
   .XMMMMMMMMMMMMMMMMMMMMMMMMK.   Terminal Font: Monaco 12
     kMMMMMMMMMMMMMMMMMMMMMMd     CPU: Intel i3-8100 (4) @ 3.60GHz
      ;KMMMMMMMWXXWMMMMMMMk.      GPU: Radeon RX 570
-       .cooc,.    .,coo:.        Memory: 4952MiB / 16384MiB
+       .cooc,.    .,coo:.        Memory: 5203MiB / 16384MiB
 ```
 
 ### Macmini 2018:
