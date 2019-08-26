@@ -153,7 +153,7 @@
 			<key>Generate</key>
 			<dict>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
@@ -173,6 +173,11 @@
 		<false/>
 		<key>Timeout</key>
 		<integer>1</integer>
+	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>HWPEnable</key>
+		<true/>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.14.x with native CoffeeLake support</string>
