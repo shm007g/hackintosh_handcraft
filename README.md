@@ -4,14 +4,14 @@
 
 个人使用和维护的几个Hackintosh Machine EFI，分享给有需要的朋友。
 
-## 我是如何从零开始安装Hackintosh
+## 我是如何从零开始安装Hackintosh的
 1. 入门：基于tonymacx86论坛的Install Guide，使用Unibeast制作安装U盘，使用Multibeast完成Post Install的驱动安装和config配置。
 2. **使用须知**：请使用CLover Configurator替换一个新的SMBIOS。否则多个机器使用同一个硬件ID，可能会被苹果封锁。
 3. 一些技术细节：
     - 这几个EFI没有做集成显卡id的注入、ssdt/dsdt等定制，通用性好一点。
     - Clover：是用来引导MacOS系统的，可以同时引导Windows和MacOS双系统。每代MacOS系统更新一般都需要把Clover升级到较新的版本才能无缝OTA升级。可参考[某B站视频](https://www.bilibili.com/video/av49751074?t=72)。
     - CLover Configurator：即CCG，通过plist文件配置引导细节，更新Clover和kexts驱动。一般要先加载EFI所在分区，也可以用`diskutil list`查看引导所在EFI分区。
-    - Multibeast：系统安装上后，做kexts驱动适配用。默认会把kexts安装到/Library/Extensions/(/L/E)系统目录，为了系统更新后kexts稳定，我把所有kexts驱动搬迁到/EFI/CLOVER/Kexts/other目录，即驱动和引导放在一起。
+    - Multibeast：系统安装上后，做kexts驱动适配用。默认会把kexts安装到/Library/Extensions/(/L/E)系统目录，为了系统更新后kexts不丢失，我把所有kexts驱动搬迁到/EFI/CLOVER/Kexts/other目录，即驱动和引导放在一起。
     - kexts缓存重建：有时候需要进行重建，可以解决一些开机起不来之类的问题；可以用指令`sudo kextcache -i /`操作，我看日志和网上有很多用Kext Utility操作的很像。
 4. mac_utils辅助工具
     - neofetch: 查看系统spec
