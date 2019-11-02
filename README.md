@@ -30,9 +30,10 @@
 #### iMac (Retina 4K, 21.5-inch, 2019)
 ![](./iMac-4k-2019-Catalina.png)
 
-#### 2018 Mac Mini
 
-![](./L65_deskmini.gif)
+#### 2018 Mac Mini
+![](./L65_itx_case.png)
+
 ```
                     'c.          shm@macmini.local
                  ,xNMM.          -----------------
