@@ -2,7 +2,7 @@
 
 | Item | Spec |
 |------|------|
-|系统   | macOS 10.15 Catalina + Windows 10 |
+|系统   | macOS 10.15.1 Catalina + Windows 10 |
 |处理器 | Intel Core i3-8100 @ 3.6GHz |
 |主板   | MSI B360M Fire |
 |内存   | Corsair 8G*2 DDR4-2400MHz |
@@ -16,6 +16,9 @@
 现状：目前声卡、网卡、硬解、睡眠、HWMonitor温度检测均正常。支持**直接升级macOS 10.14.6(MOjave), 10.15(Catalina)**。
 
 ## Releases Log
+
+#### 20191101: 升级到10.15.1
+  - 升级AppleALC到1.4.3, Lilu到1.3.9, WhateverGreen到1.3.4，都是最新版；直接系统升级
 
 #### 20191009：升级到10.15
   - 使用Clover Configurator升级Clover版本从4934到5070.
