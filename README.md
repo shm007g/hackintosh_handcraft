@@ -28,7 +28,7 @@
 
 ## My Hackintosh Machines：
 #### iMac (Retina 4K, 21.5-inch, 2019)
-![](./iMac-4k-2019-Catalina.png)
+![](./iMac-4k-2019-Catalina-10.15.1.png)
 
 
 #### 2018 Mac Mini
