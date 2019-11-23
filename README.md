@@ -54,6 +54,29 @@
        .cooc,.    .,coo:.        Memory: 6515MiB / 16384MiB
 ```
 
+#### iMac (21.5-inch, Late 2013)
+
+```
+                    'c.          szymon@imac2.local
+                 ,xNMM.          ------------------
+               .OMMMMo           OS: macOS 10.15.1 19B88 x86_64
+               OMMM0,            Host: Hackintosh (SMBIOS: iMac14,1)
+     .;loddo:' loolloddol;.      Kernel: 19.0.0
+   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 22 mins
+ .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 35 (brew)
+ XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: bash 3.2.57
+;MMMMMMMMMMMMMMMMMMMMMMMM:       Resolution: 2560x1080
+:MMMMMMMMMMMMMMMMMMMMMMMM:       DE: Aqua
+.MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: Quartz Compositor
+ kMMMMMMMMMMMMMMMMMMMMMMMMWd.    WM Theme: Blue (Light)
+ .XMMMMMMMMMMMMMMMMMMMMMMMMMMk   Terminal: iTerm2
+  .XMMMMMMMMMMMMMMMMMMMMMMMMK.   Terminal Font: Monaco 12
+    kMMMMMMMMMMMMMMMMMMMMMMd     CPU: Intel i5-4670T (4) @ 2.30GHz
+     ;KMMMMMMMWXXWMMMMMMMk.      GPU: Intel HD Graphics 4600
+       .cooc,.    .,coo:.        Memory: 3983MiB / 8192MiB
+```
+
+
 #### MacBook Pro (Retina, 13-inch, Early 2015)
 ```
                     'c.          szymon@macbook2015.local

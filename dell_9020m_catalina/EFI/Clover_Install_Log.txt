@@ -1,0 +1,25 @@
+
+Clover EFI installer log - Sat Nov 23 19:22:26 CST 2019
+Installer version: v2.5k r5099 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *250.1 GB   disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:         Microsoft Reserved                         134.2 MB   disk0s2
+   3:                  Apple_HFS macOS                   249.6 GB   disk0s3
+
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/macOS/EFIROOTDIR/EFI folder to /Volumes/macOS/EFI-Backups/r4418/2019-11-23-19h22/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Removing UEFI/APFS.efi because ApfsDriverLoader.efi is installed!
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
