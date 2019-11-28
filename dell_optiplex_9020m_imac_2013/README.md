@@ -20,5 +20,8 @@
 
 ## Releases Log
 
+#### 20191128: fix USB 3.0接口需要供电的问题
+  - 接口已经定制，去掉USBInjectAll.kext
+
 #### 20191123: 构建
   - 最新的Clover和kexts驱动，基本功能OK。
