@@ -12,7 +12,7 @@
 |声卡   | Realtek® ALC3232 Codec |
 |Clover| r4934 |
 
-现状：目前网卡、硬解、睡眠、HWMonitor温度检测均正常；耳机孔爆音，外接vga无法使用。**可直接升级macOS 10.14.6 Mojave。
+现状：目前网卡、硬解、睡眠、HWMonitor温度检测均正常；耳机孔爆音，外接vga无法使用。可直接升级macOS 10.14.6 Mojave。
 
 ## Releases Log
 

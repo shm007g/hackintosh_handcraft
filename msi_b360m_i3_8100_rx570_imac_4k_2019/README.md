@@ -5,17 +5,18 @@
 |系统   | macOS 10.15.1 Catalina + Windows 10 |
 |处理器 | Intel Core i3-8100 @ 3.6GHz |
 |主板   | MSI B360M Fire |
-|内存   | Corsair 8G*2 DDR4-2400MHz |
-|硬盘   | Intel 760P 256G M.2 NVMe + WD 1T HDD |
+|内存   | Corsair 8G*2 2400MHz DDR4 |
+|硬盘   | Intel 760P 256G M.2 NVMe SSD + WD 1T HDD |
 |显卡   | Yeston Radeon RX570 4G GDDR5|
 |网卡   | 板载 Realtek RTL8111H + CF-915AC USB WiFi |
 |声卡   | Realtek® ALC887 Codec |
 |BIOS版本| 7B53v14 |
 |Clover版本| r5070 |
 
-现状：目前声卡、网卡、硬解、睡眠、HWMonitor温度检测均正常。支持**直接升级macOS 10.14.6(MOjave), 10.15(Catalina)**。
-
 ## Releases Log
+
+#### 20191128: Patch For USB 3.0 Devices
+  - USB 3.0 优盘插到3.0口子不能用的bug，使用了USB Port Limit Patch修复。
 
 #### 20191101: 升级到10.15.1
   - 升级AppleALC到1.4.3, Lilu到1.3.9, WhateverGreen到1.3.4，都是最新版；直接系统升级
