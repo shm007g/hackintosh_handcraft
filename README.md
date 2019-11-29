@@ -2,80 +2,35 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
-个人使用和维护的几个Hackintosh EFI，分享给有需要的朋友。
+个人使用的几个Hackintosh Machine，分享给有需要的朋友。
 
-**使用须知**：请使用Clover Configurator替换一个新的SMBIOS。否则多个机器使用同一个硬件ID，**会被苹果封锁AppleID的**。
+```
+Desktop1: i3-8100, MSI B360M Fire, Yeston RX570, 8G*2 DDR4 corsair, Intel 760p M.2 NVMe, macOS10.15.1
+Desktop2: i3-8100, Onda H310 ITX, 8G*2 DDR3 Onda, Intel 540s M.2 Sata, macOS10.14.6
+Desktop3: Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macOS10.15.1
+Laptop: Thinkpad T450, i5-5300u, 8G*2 DDR3L, macOS10.14.6, mSata 256G
+```
+
+**使用须知**：请使用Clover Configurator替换一个新的SMBIOS。否则多账户多机器使用同一个硬件ID，**会被苹果封锁AppleID的**。
 
 ## My Hackintosh Handcraft
-
-#### 1. iMac (Retina 4K, 21.5-inch, 2019)
-- 处理器：2018年发布的Intel 8 代处理器采用了“田忌赛马”的换名策略，core i3 性能得到了相当的提升，4核@3.6GHz，对于性能没有高要求的日常影音、办公足够用了。
-- 显卡：10.14以后，英伟达的新的高端显卡驱动没有了，要用只能用老系列的；同时AMD的显卡开始免驱了，搞了一个盈通的RX570。装个双系统的话，可以在Windows下面打打Steam小游戏。
-- 存储：迫于当时闪存很贵，也搞了Intel 760p 256G+海盗船8G*2 DDR4. 256G分两份，一份装Windows一份装macOS，macOS系统占存储很小。
-- 网卡：使用了10.13下“免驱”的CF-915AC双频USB Wifi。Mojave下安装某个版本的官方驱动很稳定；Catalina下官方驱动不支持64位要安装开源的驱动；USB Wifi建议更小的815AC。
-- 声卡：主板自带声卡，使用AppleALC+一个id就能驱动。
-- 主板：MSI B360M Fire，22*14的主板，品牌还行，该有的口子都有。记得要使用7B53v14这个版本的BIOS，再新就有问题了。
-- 挑战：完全从零开始整，遇到了一个关机自动重启的bug，翻了好久的帖子，试了很多方法才搞好的，release log里面有fix方法。用了1年了很稳定。
-
-![](./iMac-4k-2019-Catalina-10.15.1.png)
-
-
-#### 2. 2018 Mac Mini
-
-```
-                    'c.          shm@macmini.local
-                 ,xNMM.          -----------------
-               .OMMMMo           OS: macOS Mojave 10.14.6 18G87 x86_64
-               OMMM0,            Host: Hackintosh (SMBIOS: Macmini8,1)
-     .;loddo:' loolloddol;.      Kernel: 18.7.0
-   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 7 mins
- .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 44 (brew)
- XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: bash 3.2.57
-;MMMMMMMMMMMMMMMMMMMMMMMM:       Resolution: 1920x1080
-:MMMMMMMMMMMMMMMMMMMMMMMM:       DE: Aqua
-.MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: Quartz Compositor
- kMMMMMMMMMMMMMMMMMMMMMMMMWd.    WM Theme: Blue (Light)
- .XMMMMMMMMMMMMMMMMMMMMMMMMMMk   Terminal: iTerm2
-  .XMMMMMMMMMMMMMMMMMMMMMMMMK.   Terminal Font: Monaco 12
-    kMMMMMMMMMMMMMMMMMMMMMMd     CPU: Intel i3-8100 (4) @ 3.60GHz
-     ;KMMMMMMMWXXWMMMMMMMk.      GPU: Intel UHD Graphics 630
-       .cooc,.    .,coo:.        Memory: 6515MiB / 16384MiB
-```
-- i3-8100，4核@3.6GHz，Mac Mini 2018 标配版本同款U。日常办公影音空闲率80%，对于性能没有高要求的日常影音、办公足够用了。
-- 出于资金预算，选择品牌稍差的昂达H310SD3-ITX全固态主板，配合16G DDR3专用条。从坛友店里买了Intel 545S 360G M.2 Sata固态。
-- ITX机箱内置电源通常噪声很大，基于U功率不大，我选用了外置电源DC-ATX适配器+联达直插式电源的方式；厚实的联达铝制机箱，只需要30块的大镰刀下压风扇，静音效果号。只有跑神经网络或者Benchmark，温度达到75度的样子，才能听到些许稳定的风扇声。日常工作温度在40～45度左右。
-- USB WIFI用的是CF-815AC，Windows/10.13下免驱；Mojave下安装某个版本的官方驱动很稳定；Catalina下官方驱动不支持64位要安装开源的驱动；
-- 618有一定的折扣，总体花费¥1800，极致省钱。日常办公半年左右了，很稳定。
+#### iMac (Retina 4K, 21.5-inch, 2019) & 2018 Mac Mini
+- CPU：2018年发布的Intel 8代core i3，性能得到了相当的提升。4核@3.6GHz的i3-8100，日常办公影音空闲率在50%以上，性能上够用，TDP 65W散热基本问题不大。
+- 显卡：10.14以后，免驱的就是AMD的RX系列和Nvidia的老系列卡了，选了盈通570。装个双系统的话，可以在Windows下面打打Steam小游戏。i3自带的UHD630的性能也还可以，普通带一两个1080P显示器问题也不大。
+- 主板+存储：微星品牌还是可以的，B360m Fire是22*18的MATX主板，作为主力机没问题，选用了Intel 760P这款兼容性好的SSD。Mini主机压缩预算考虑，选了昂达全固态H310ITX板子，选用DDR3专用条，可以省下一笔钱，使用了Intel 540S M.2 Sata SSD。
+- 机箱+电源：Mini主机选用了外置电源DC-ATX适配器+联达直插式电源的方式，因为ITX机箱内置电源通常噪声很大；机箱选用了厚实的联达铝制机箱`19*19*6,5`，只需要30块的大镰刀下压风扇，基本上散热静音都OK了。这款小主机配置和Mac Mini2018基础款差不多，618不到¥1800就拿下了，很划算，已稳定办公半年左右。
+- 网卡：选用了“免驱”USB Wifi，CF-915AC/CF-811AC，10.13下免驱，Mojave下安装某个版本的官方驱动很稳定，Catalina下官方驱动不支持64位要安装开源的驱动。主板自身的以太网卡这几年变化很小，也可以很好的驱动，主板声卡也一样。
+- 挑战：主力机同iMac 2019配置，完全从零开始整，遇到了一个关机自动重启的bug，翻了好久的帖子，试了很多方法才搞好的，release log里面有fix方法。用了1年了很稳定。
 
 ![](./L65_itx_case.png)
 
-#### 3. iMac (21.5-inch, Late 2013)
-
-```
-                    'c.          szymon@imac2.local
-                 ,xNMM.          ------------------
-               .OMMMMo           OS: macOS 10.15.1 19B88 x86_64
-               OMMM0,            Host: Hackintosh (SMBIOS: iMac14,1)
-     .;loddo:' loolloddol;.      Kernel: 19.0.0
-   cKMMMMMMMMMMNWMMMMMMMMMM0:    Uptime: 22 mins
- .KMMMMMMMMMMMMMMMMMMMMMMMWd.    Packages: 35 (brew)
- XMMMMMMMMMMMMMMMMMMMMMMMX.      Shell: bash 3.2.57
-;MMMMMMMMMMMMMMMMMMMMMMMM:       Resolution: 2560x1080
-:MMMMMMMMMMMMMMMMMMMMMMMM:       DE: Aqua
-.MMMMMMMMMMMMMMMMMMMMMMMMX.      WM: Quartz Compositor
- kMMMMMMMMMMMMMMMMMMMMMMMMWd.    WM Theme: Blue (Light)
- .XMMMMMMMMMMMMMMMMMMMMMMMMMMk   Terminal: iTerm2
-  .XMMMMMMMMMMMMMMMMMMMMMMMMK.   Terminal Font: Monaco 12
-    kMMMMMMMMMMMMMMMMMMMMMMd     CPU: Intel i5-4670T (4) @ 2.30GHz
-     ;KMMMMMMMWXXWMMMMMMMk.      GPU: Intel HD Graphics 4600
-       .cooc,.    .,coo:.        Memory: 3983MiB / 8192MiB
-```
-- 第一台“iMac”太大了占桌面，沉迷小机箱已久；偶然翻SMZDM看到4代U已经进入了价格非常低但是性能却和后续567代差不多的消息，于是入手了Dell 9020M小机箱，感觉比配置差不多的HP 800G1 DM方正好看，拆机[非常容易](https://www.bilibili.com/video/av22047159)。4代顶级Q87主板+电源+机箱的准系统非常便宜，才400块，都买不到上面一块昂达的ITX，更不要说大厂的了😂。CPU选择i5-4670T，Benchamrk数据比i5-6500T要好，i5-6500T需要搭乘的7040M准系统也更加贵😝。
-- 咸鱼到手后，全部拆了一遍，清灰上了Arctic的硅脂，这几天稳定下来后，温度维持在40～45度之间。CPU风扇声音嗡嗡嗡还是很明显，有点恼人，看看换一个新的风扇行不行，或者能不能淘一个铜底带散热管的薄散热器，毕竟机箱容许高度就2cm。
+#### iMac (21.5-inch, Late 2013)
+- 4代U现在已经进入了性价比非常高的阶段，4核4线程的i5，价格三四百。Dell 9020M/HP 800G1 DM这样的4代顶级Q87芯片组小机箱，仅·`18*18*3.5`和一本书差不多大，准系统也才三四百，都买不到上面一块昂达的ITX，Dell/HP做工应该还是蛮不错。CPU选择i5-4670T，Benchamrk数据比i5-6500T要好，i5-6500T需要搭乘的7040M准系统也更加贵😝。
+- 咸鱼到手后，全部拆了一遍，清灰上了Arctic的硅脂，这几天稳定下来后，温度维持在40～50度之间。CPU风扇声音嗡嗡嗡还是很明显，有点恼人，看看换一个新的风扇行不行，或者能不能淘一个铜底带散热管的薄散热器，毕竟机箱容许高度就2cm。
 
 ![](https://static.chiphell.com/forum/201911/13/164831zex3mbkz96wmkj3k.jpg)
 
-#### 4. MacBook Pro (Retina, 13-inch, Early 2015)
+#### MacBook Pro (Retina, 13-inch, Early 2015)
 ```
                     'c.          szymon@macbook2015.local
                  ,xNMM.          ------------------------
@@ -95,7 +50,7 @@
      ;KMMMMMMMWXXWMMMMMMMk.      GPU: Intel HD Graphics 5500
        .cooc,.    .,coo:.        Memory: 4841MiB / 16384MiB
 ```
-- 没啥好说的，公司的老电脑，翻pcbeta看到相似型号了，就试了下，出了触摸不支持手势其实还行，我觉得比Windows10快一些。
+- 公司的老电脑，5代的低压U，跑上Mojave我觉得速度还是比Windows10要快一点。平时不大用。
 
 ## mac_utils 辅助工具文件夹
 - neofetch: 查看系统spec
