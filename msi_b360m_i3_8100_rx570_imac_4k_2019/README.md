@@ -29,10 +29,6 @@
 #### 20190824：升级到10.14.6
   - 升级了3个kext驱动，直接系统更新到10.14.6
 
-#### 20190617：升级USB WiFi网卡驱动
-  - CF-915AC，请使用`mac_utils/EW-7811Un_Mac_driver_v1.0.1.4.zip`，新版本的驱动都无法稳定支持5G。
-  - CF-811AC新版的驱动都可以用，更小更便宜，请使用`mac_utils/RTLWlanU_MacOS10.9_MacOS10.14_Driver_1830.20.b31_1827.4.b32_UI_5.0.8.b4.zip`。
-
 #### 20190610：升级Clover，主题精简
   - 使用Multibeast-11.3.0升级clover到r4934
   - 主题仅保留一个最简的Minimalism主题

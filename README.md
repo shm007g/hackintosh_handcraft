@@ -19,7 +19,7 @@ Laptop: Thinkpad T450, i5-5300u, 8G*2 DDR3L, macOS10.14.6, mSata 256G
 - 显卡：10.14以后，免驱的就是AMD的RX系列和Nvidia的老系列卡了，选了盈通570。装个双系统的话，可以在Windows下面打打Steam小游戏。i3自带的UHD630的性能也还可以，普通带一两个1080P显示器问题也不大。
 - 主板+存储：微星品牌还是可以的，B360m Fire是22*18的MATX主板，作为主力机没问题，选用了Intel 760P这款兼容性好的SSD。Mini主机压缩预算考虑，选了昂达全固态H310ITX板子，选用DDR3专用条，可以省下一笔钱，使用了Intel 540S M.2 Sata SSD。
 - 机箱+电源：Mini主机选用了外置电源DC-ATX适配器+联达直插式电源的方式，因为ITX机箱内置电源通常噪声很大；机箱选用了厚实的联达铝制机箱`19*19*6,5`，只需要30块的大镰刀下压风扇，基本上散热静音都OK了。这款小主机配置和Mac Mini2018基础款差不多，618不到¥1800就拿下了，很划算，已稳定办公半年左右。
-- 网卡：选用了“免驱”USB Wifi，CF-915AC/CF-811AC，10.13下免驱，Mojave下安装某个版本的官方驱动很稳定，Catalina下官方驱动不支持64位要安装开源的驱动。主板自身的以太网卡这几年变化很小，也可以很好的驱动，主板声卡也一样。
+- 网卡：选用了USB Wifi CF-811AC/CF-915AC，10.13下免驱，Mojave和Catalina建议使用开源的[Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)软件，因为官方驱动是32位的。主板自身的以太网卡这几年变化很小，也可以很好的驱动，主板声卡也一样。
 - 挑战：主力机同iMac 2019配置，完全从零开始整，遇到了一个关机自动重启的bug，翻了好久的帖子，试了很多方法才搞好的，release log里面有fix方法。用了1年了很稳定。
 
 ![](./L65_itx_case.png)
@@ -62,8 +62,6 @@ Laptop: Thinkpad T450, i5-5300u, 8G*2 DDR3L, macOS10.14.6, mSata 256G
 - fliqlo: 时钟屏保。
 - CPU-S: 变频测试。
 - IntelPowerGadget: Intel官方硬件监测软件。
-- EW-7811Un_Mac_driver_v1.0.1.4.zip: **CF-915AC** USB WiFi驱动程序(新版本的驱动都无法稳定支持5G)，适用于Mojave及以前。Catalina需使用 [Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)。
-- RTLWlanU_MacOS10.9_MacOS10.14_Driver*.zip: **CF-811AC** USB WiFi驱动程序，适用于Mojave及以前。贴[官方下载地址](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=335)
 
 ## 我是如何从零开始安装Hackintosh的
 1. 入门：基于tonymacx86论坛的Install Guide，使用Unibeast制作安装U盘，使用Multibeast完成Post Install的驱动安装和config配置。
