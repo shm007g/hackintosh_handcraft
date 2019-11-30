@@ -62,7 +62,7 @@ Laptop: Thinkpad T450, i5-5300u, 8G*2 DDR3L, macOS10.14.6, mSata 256G
 - fliqlo: 时钟屏保。
 - CPU-S: 变频测试。
 - IntelPowerGadget: Intel官方硬件监测软件。
-- EW-7811Un_Mac_driver_v1.0.1.4.zip: **CF-915AC** USB WiFi驱动程序(新版本的驱动都无法稳定支持5G)，适用于Mojave及以前。Catalina需使用 [Wireless USB Adapter-V6.zip](https://github.com/chris1111/Wireless-USB-Adapter/releases)。
+- EW-7811Un_Mac_driver_v1.0.1.4.zip: **CF-915AC** USB WiFi驱动程序(新版本的驱动都无法稳定支持5G)，适用于Mojave及以前。Catalina需使用 [Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)。
 - RTLWlanU_MacOS10.9_MacOS10.14_Driver*.zip: **CF-811AC** USB WiFi驱动程序，适用于Mojave及以前。贴[官方下载地址](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=335)
 
 ## 我是如何从零开始安装Hackintosh的
