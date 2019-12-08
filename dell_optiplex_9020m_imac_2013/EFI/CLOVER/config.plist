@@ -216,7 +216,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>nv_disable=1 dart=0 kext-dev-mode=1</string>
+		<string>nv_disable=1 dart=0 brcmfx-country=#a</string>
 		<key>DefaultVolume</key>
 		<string>macOS</string>
 		<key>NeverHibernate</key>
@@ -486,7 +486,7 @@
 		<string>0x67</string>
 		<key>ROM</key>
 		<data>
-		GGbaEpY3
+		u0jOEpY3
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -504,7 +504,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>D25353501J9FM59JC</string>
+		<string>D25319207GUFM598C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -534,9 +534,9 @@
 		<key>ProductName</key>
 		<string>iMac14,1</string>
 		<key>SerialNumber</key>
-		<string>D25M1EZPF8J2</string>
+		<string>D25KP0AQF8J2</string>
 		<key>SmUUID</key>
-		<string>45CD634A-B114-49B5-AEAC-61FD4596F4E4</string>
+		<string>E1D526D6-50F6-41E2-8065-C2EC22021EB5</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

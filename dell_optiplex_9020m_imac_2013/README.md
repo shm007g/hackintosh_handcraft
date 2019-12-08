@@ -20,6 +20,9 @@
 
 ## Releases Log
 
+#### 20191208: fix airdrop 中文不能用问题
+  - add AirportBrcmFixup.kext and country auto-detect
+
 #### 20191128: fix USB 3.0接口需要供电的问题
   - 接口已经定制，去掉USBInjectAll.kext
 
