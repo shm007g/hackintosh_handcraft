@@ -8,7 +8,7 @@
 |内存   | Samsung 4G*2 DDR3L-1600MHz |
 |硬盘   | Samsung 256G 850 EVO |
 |显卡   | Intel HD Graphics 4600 |
-|网卡   | BCM94360CS2 |
+|网卡   | DW1820a(CN-08PKF4) |
 |声卡   | Realtek® ALC3234 Codec |
 |Clover版本| r5099 |
 

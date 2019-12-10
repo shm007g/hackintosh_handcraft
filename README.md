@@ -19,7 +19,8 @@ Laptop: Thinkpad T450, i5-5300u, 8G*2 DDR3L, macOS10.14.6, mSata 256G
 - 显卡：10.14以后，免驱的就是AMD的RX系列和Nvidia的老系列卡了，选了盈通570。装个双系统的话，可以在Windows下面打打Steam小游戏。i3自带的UHD630的性能也还可以，普通带一两个1080P显示器问题也不大。
 - 主板+存储：微星品牌还是可以的，B360m Fire是22*18的MATX主板，作为主力机没问题，选用了Intel 760P这款兼容性好的SSD。Mini主机压缩预算考虑，选了昂达全固态H310ITX板子，选用DDR3专用条，可以省下一笔钱，使用了Intel 540S M.2 Sata SSD。
 - 机箱+电源：Mini主机选用了外置电源DC-ATX适配器+联达直插式电源的方式，因为ITX机箱内置电源通常噪声很大；机箱选用了厚实的联达铝制机箱`19*19*6,5`，只需要30块的大镰刀下压风扇，基本上散热静音都OK了。这款小主机配置和Mac Mini2018基础款差不多，618不到¥1800就拿下了，很划算，已稳定办公半年左右。
-- 网卡：选用了USB Wifi CF-811AC/CF-915AC，10.13下免驱，Mojave和Catalina建议使用开源的[Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)软件，因为官方驱动是32位的。主板自身的以太网卡这几年变化很小，也可以很好的驱动，主板声卡也一样。
+- WIFI：选用了USB WIFI CF-811AC/CF-915AC，10.13下免驱，Mojave和Catalina建议使用开源的[Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)软件，因为官方驱动是32位的。主板自身的以太网卡这几年变化很小，也可以很好的驱动，主板声卡也一样。
+- WIFI+蓝牙：建议选用[小兵大大已经找到方法](https://blog.daliansky.net/DW1820A_BCM94350ZAE-driver-inserts-the-correct-posture.html)的DW1820a(m.2)，价格稍微便宜点；或者选用免驱的BCM94360CS2(mini-pcie)，卡+转接卡(m.2)比较长，要注意。
 - 挑战：主力机同iMac 2019配置，完全从零开始整，遇到了一个关机自动重启的bug，翻了好久的帖子，试了很多方法才搞好的，release log里面有fix方法。用了1年了很稳定。
 
 ![](./L65_itx_case.png)
