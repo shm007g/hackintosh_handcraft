@@ -2,7 +2,7 @@
 
 | Item | Spec |
 |------|------|
-|系统   | macOS 10.15.1 Catalina + Windows 10 |
+|系统   | macOS 10.15.2 Catalina + Windows 10 |
 |处理器 | Intel Core i3-8100 @ 3.6GHz |
 |主板   | MSI B360M Fire |
 |内存   | Corsair 8G*2 2400MHz DDR4 |
@@ -11,9 +11,11 @@
 |网卡   | 板载 Realtek RTL8111H + CF-915AC USB WiFi |
 |声卡   | Realtek® ALC887 Codec |
 |BIOS版本| 7B53v14 |
-|Clover版本| r5070 |
+|Clover版本| r5100 |
 
 ## Releases Log
+
+#### 20191212: 升级到Catalina 10.15.2
 
 #### 20191128: Patch For USB 3.0 Devices
   - USB 3.0 优盘插到3.0口子不能用的bug，使用了USB Port Limit Patch修复。
