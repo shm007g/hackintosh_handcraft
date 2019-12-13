@@ -7,7 +7,7 @@
 ```
 Desktop1: i3-8100, MSI B360M Fire, Yeston RX570, 8G*2 DDR4 corsair, Intel 760p M.2 NVMe, macOS10.15.2
 Desktop2: i3-8100, Onda H310 ITX, 8G*2 DDR3 Onda, Intel 540s M.2 Sata, macOS10.14.6
-Desktop3: Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macOS10.15.1
+Desktop3: Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macOS10.15.2
 Laptop: Thinkpad T450, i5-5300u, 8G*2 DDR3L, macOS10.14.6, mSata 256G
 ```
 
