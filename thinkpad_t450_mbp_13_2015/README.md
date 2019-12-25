@@ -1,7 +1,7 @@
 ## MacBook Pro (Retina, 13-inch, Early 2015) Hackintosh
 
 | Item | Spec |
-|------|------|
+|:------|:------|
 |系统   | macOS 10.14.6 + Windows 10 |
 |Laptop| ThinkPad T450 |
 |处理器 | Intel Core i5-5300u @ 2.3GHz |

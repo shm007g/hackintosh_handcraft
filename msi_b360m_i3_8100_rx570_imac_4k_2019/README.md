@@ -1,7 +1,7 @@
 ## iMac (Retina 4K, 21.5-inch, 2019) Hackintosh
 
 | Item | Spec |
-|------|------|
+|:------|:------|
 |系统   | macOS 10.15.2 Catalina + Windows 10 |
 |处理器 | Intel Core i3-8100 @ 3.6GHz |
 |主板   | MSI B360M Fire |
@@ -12,6 +12,13 @@
 |声卡   | Realtek® ALC887 Codec |
 |BIOS版本| 7B53v14 |
 |Clover版本| r5100 |
+
+### 硬件说两句：
+- CPU：2018年发布的Intel 8代core i3，性能得到了相当的提升。4核@3.6GHz的i3-8100，日常办公影音空闲率在50%以上，性能上够用，TDP 65W散热基本问题不大。
+- 显卡：10.14以后，免驱的就是AMD的RX系列和Nvidia的老系列卡了，选了盈通570，理论上可以4K。装个双系统的话，可以在Windows下面打打Steam小游戏。
+- 主板+存储：微星品牌还是可以的，B360m Fire是22*18的MATX主板，作为主力机没问题，选用了Intel 760P这款兼容性好的SSD。
+- WIFI：选用了USB WIFI CF-811AC/CF-915AC，10.13下免驱，Mojave和Catalina建议使用开源的[Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)软件，因为官方驱动是32位的。
+
 
 ## Releases Log
 
