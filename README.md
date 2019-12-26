@@ -7,10 +7,10 @@
 **使用须知**：请使用Clover Configurator替换一个新的SMBIOS以“洗白”；另外，多账户多机器使用同一个硬件ID，**可能会被苹果封锁AppleID**。
 
 ```
-Office Desktop    : i3-8100, Onda H310 ITX, 8G*2 DDR3 Onda, Intel 540s M.2 Sata, macOS10.14.6
-Home Desktop      : Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macOS10.15.2
-Last Home Desktop : i3-8100, MSI B360M Fire, Yeston RX570, 8G*2 DDR4 corsair, Intel 760p M.2 NVMe, macOS10.15.2 (deprecated)
-Laptop            : Thinkpad T450, i5-5300u, 8G*2 DDR3L, macOS10.14.6, mSata 256G
+Office Desktop       : i3-8100, Onda H310 ITX, 8G*2 DDR3 Onda, Intel 540s M.2 Sata, macOS10.14.6
+Laptop               : Thinkpad T450, i5-5300u, 8G*2 DDR3L, macOS10.14.6, mSata 256G
+Home Desktop(former) : i3-8100, MSI B360M Fire, 8G*2 DDR4 corsair, Yeston RX570 4G, Intel 760p M.2 NVMe, macOS10.15.2 (**deprecated**)
+Home Desktop(former) : Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macOS10.15.2 (**deprecated**)
 ```
 
 ### mac_utils 文件夹
