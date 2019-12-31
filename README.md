@@ -4,19 +4,20 @@
 
 个人使用的几个Hackintosh Machine，分享给有需要的朋友。
 
-**使用须知**：请使用Clover Configurator替换一个新的SMBIOS以“洗白”；另外，多账户多机器使用同一个硬件ID，**可能会被苹果封锁AppleID**。
+**使用必知**：请使用Clover Configurator替换一个新的SMBIOS以“洗白”；另外，不这么干，多账户多机器使用同一个硬件ID，**可能会被苹果封锁AppleID**。
 
 ```
-Office Desktop       : i3-8100, Onda H310 ITX, 8G*2 DDR3 Onda, Intel 540s M.2 Sata, macOS10.14.6
-Laptop               : Thinkpad T450, i5-5300u, 8G*2 DDR3L, macOS10.14.6, mSata 256G
-Home Desktop(former) : i3-8100, MSI B360M Fire, 8G*2 DDR4 corsair, Yeston RX570 4G, Intel 760p M.2 NVMe, macOS10.15.2 (deprecated)
-Home Desktop(former) : Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macOS10.15.2 (deprecated)
+Office Desktop : i3-8100, Onda H310 ITX, 8G*2 DDR3 Onda, Intel 540s M.2 Sata, macOS10.15.2
+Home Desktop   : i3-8400, ASUS B360M-A, 8G*2 DDR4 G.Skill, Yeston Gaming RX570 4G, Intel 760p M.2 NVMe, macOS10.15.2
+Laptop         : Thinkpad T450, i5-5300u, 8G*2 DDR3L, mSata 256G, macOS10.14.6
+Former Desktop : i3-8100, MSI B360M Fire, 8G*2 DDR4 corsair, Yeston RX570 4G, Intel 760p M.2 NVMe, macOS10.15.2 (deprecated)
+Former Desktop : Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macOS10.15.2 (deprecated)
 ```
 
 ### mac_utils 文件夹
-- HWSensors.6.26.1800.zip: kexts和app结合的硬件温度和使用情况的状态栏监测工具，仅适用于Hackintosh。我习惯用这个。
-- iStatusMenus: 另一个可破解的状态栏监测工具。
-- Office 2019及“工具”包。
+- HWSensors.6.26.1800.zip: kexts和app结合的硬件温度、使用情况的状态栏监测工具，小而且好用，仅适用于Hackintosh。
+- iStatusMenus: 另一个状态栏监测工具，mac_utils里面有方法**。
+- Office 2019下载地址及**包。
 - fliqlo: 时钟屏保最新版。
 - CPU-S: 变频测试。
 - IntelPowerGadget: Intel官方硬件监测软件。
