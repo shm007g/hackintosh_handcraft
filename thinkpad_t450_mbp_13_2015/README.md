@@ -10,9 +10,9 @@
 |显卡   | Intel HD Graphics 5500 1536 MB|
 |网卡   | CF-811AC USB WIFI |
 |声卡   | Realtek® ALC3232 Codec |
-|Clover| r4934 |
+|Clover| r5099 |
 
-现状：目前网卡、硬解、睡眠、HWMonitor温度检测均正常；耳机孔爆音，外接vga无法使用。可直接升级macOS 10.14.6 Mojave。
+问题：耳机孔爆音，外接vga无法使用。
 
 ## Releases Log
 
