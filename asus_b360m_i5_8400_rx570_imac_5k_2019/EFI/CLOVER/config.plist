@@ -417,7 +417,7 @@
 		<key>CustomUUID</key>
 		<string>84182973-A435-5153-857F-71F6543AFF5E</string>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>

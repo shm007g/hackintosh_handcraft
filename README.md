@@ -7,7 +7,7 @@
 **使用必知**：请使用Clover Configurator在SMBIOS中替换一个新的Serial Number以“洗白”；同时也避免多账户使用同一个Serial Number被苹果封锁Apple ID。
 
 ```
-Home Desktop   : i3-8400, ASUS B360M-A, 8G*2 DDR4 G.Skill, Yeston Gaming RX570 4G, Intel 760p M.2 NVMe, macOS10.15.2
+Home Desktop   : i3-8400, ASUS B360M-A, 8G*2 DDR4 G.Skill, Yeston Gaming RX570 4G, Intel 760p M.2 NVMe, macOS10.15.3
 Office Desktop : i3-8100, Onda H310 ITX, 8G*2 DDR3 Onda, Intel 540s M.2 Sata, macOS10.15.2
 Laptop         : Thinkpad T450, i5-5300u, 8G*2 DDR3L, mSata 256G, macOS10.14.6
 Former Desktop : i3-8100, MSI B360M Fire, 8G*2 DDR4 corsair, Yeston RX570 4G, Intel 760p M.2 NVMe, macOS10.15.2 (deprecated)
