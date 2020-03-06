@@ -15,6 +15,7 @@ Former Desktop : Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macO
 ```
 
 ### mac_utils 文件夹
+- RTLWlanU_MacOS10.11_MacOS10.15_Driver_1830.32.b13_1827.4.b36_UI_5.0.9.b6.zip: USB WiFi驱动。
 - HWSensors.6.26.1800.zip: 检测硬件健康、温度、风扇转速等的状态栏工具，小而且好用，需要kexts驱动和app一起使用。
 - iStatusMenus: 另一个状态栏监测工具，mac_utils里面有方法**。
 - Office 2019下载地址及**包。
@@ -36,4 +37,4 @@ Former Desktop : Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macO
 - 声卡：一般去AppleALC的[wiki](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)里面找你的声卡对应的layout_id，写到Devices->Audio->Inject里面。我用过的2块主板都是ALC887，用的11。
 - 显卡：核显可以找小兵大大的博客，使用Hackintool打显卡的patch。AMD RX4xx/RX5xx系列可以直接WhateverGreen.kext+Lilu.kext进行驱动。
 - USB：一般USBInjectAll.kext直接可以驱动，不行的可以试试在Acpi->Patches里面加上`change EHC1 to EH01` `change EHC2 to EH02`，在Kernel_and_kexts_patches里面加上usb port limit patch。
-- 网卡：有线一般放一个kexts就能驱动。无线网卡一般选用USB WIFI或者m.2 WIFI。USB可以选CF-811AC，使用开源的[Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)软件驱动，官方驱动是32位的。m.2可以选择DW1820A，可以参考小兵大大的博客。
+- 网卡：有线一般放一个kexts就能驱动。无线网卡一般选用USB WIFI或者m.2 WIFI。USB可以选CF-811AC，[官方最新驱动](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=396)支持catalina，也使用开源的[Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)软件驱动。m.2可以选择便宜的DW1820A，可以参考小兵大大的博客；还可以选择贵一些的Mac拆机网卡。
