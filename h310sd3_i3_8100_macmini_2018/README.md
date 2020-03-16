@@ -2,7 +2,7 @@
 
 | Item | Spec |
 |:------|:------|
-|系统   | macOS 10.15.2 |
+|系统   | macOS 10.15.3 |
 |处理器 | Intel Core i3-8100 @ 3.6GHz |
 |主板   | Onda H310SD3-ITX |
 |内存   | Onda 8G*2 DDR3 1600MHz |
@@ -21,6 +21,9 @@
 
 
 ## Releases Log
+
+#### 20200316: 平滑升级catalina 10.15.3
+  - kexts版本到最新，重启进入“Boot Macos Install From Data” 平滑升级catalina
 
 #### 20191231: 升级catalina
   - 升级clover和kexts版本到最新，重启三次进入“Boot Macos Install From***” 平滑升级catalina
