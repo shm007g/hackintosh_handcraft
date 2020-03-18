@@ -630,13 +630,13 @@
 		<key>HibernationFixup</key>
 		<false/>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>NoEarlyProgress</key>
 		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>SkipHibernateTimeout</key>
-		<true/>
+		<false/>
 		<key>Timeout</key>
 		<integer>1</integer>
 		<key>XMPDetection</key>
@@ -1010,7 +1010,7 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1440x900</string>
+		<string>1600x900</string>
 		<key>Theme</key>
 		<string>Minimalism</string>
 	</dict>
@@ -1258,29 +1258,68 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>ROM</key>
+		<data>
+		FktBtzNH
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>Memory</key>
-		<dict>
-			<key>Channels</key>
-			<integer>0</integer>
-			<key>SlotCount</key>
-			<integer>2</integer>
-		</dict>
+		<key>BiosReleaseDate</key>
+		<string>10/30/2019</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MBP121.88Z.F000.B00.1910301809</string>
+		<key>Board-ID</key>
+		<string>Mac-E43C1C25D4880AD6</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02712701CDGDVVUE</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>MacBook-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>188.0.0.0.0</string>
+		<key>Family</key>
+		<string>MacBook Pro</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<true/>
+		<key>PlatformFeature</key>
+		<string>0x02</string>
 		<key>ProductName</key>
 		<string>MacBookPro12,1</string>
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for Broadwell identifiers</string>
-		<key>Trust</key>
-		<true/>
+		<key>SerialNumber</key>
+		<string>C02TG0CSH1DP</string>
+		<key>SmUUID</key>
+		<string>E436B411-49E9-4C70-80E1-1D6513B73347</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>ACAE30A9-944C-500A-814B-615C4EC353EF</string>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
