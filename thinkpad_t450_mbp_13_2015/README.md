@@ -2,7 +2,7 @@
 
 | Item | Spec |
 |:------|:------|
-|系统   | macOS 10.14.6 + Windows 10 |
+|系统   | macOS 10.15.3 + Windows 10 |
 |Laptop| ThinkPad T450 |
 |处理器 | Intel Core i5-5300u @ 2.3GHz |
 |内存   | 8G*2 DDR3-1600MHz |
@@ -10,15 +10,17 @@
 |显卡   | Intel HD Graphics 5500 1536 MB|
 |网卡   | CF-811AC USB WIFI |
 |声卡   | Realtek® ALC3232 Codec |
-|Clover| r5099 |
+|Clover| r5097 |
 
-问题：耳机孔爆音，外接vga无法使用。
+问题：耳机孔爆音，外接vga无法使用，睡眠有毛病。
 
 ## Releases Log
 
+## 20200319: 重新整理升级到10.15.3
+  - 感谢jsassu20提供的[EFI](https://github.com/jsassu20/Lenovo-ThinkPad-T450-macOS-Catalina)，除了睡眠无法正常外，所有均正常。
+
 #### 20190824：升级到10.14.6
   - 升级了3个kext驱动，直接系统更新到10.14.6
-
 
 #### 20191130
   - 升级Clover到最近，USB Limit解除
