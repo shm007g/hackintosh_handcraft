@@ -628,11 +628,13 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
-		<false/>
+		<true/>
 		<key>NeverHibernate</key>
 		<false/>
 		<key>NoEarlyProgress</key>
 		<false/>
+		<key>RtcHibernateAware</key>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>SkipHibernateTimeout</key>
