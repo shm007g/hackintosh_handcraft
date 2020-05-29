@@ -7,7 +7,7 @@
 **使用必知**：请使用Clover Configurator在SMBIOS中替换一个新的Serial Number以“洗白”；同时也避免多账户使用同一个Serial Number被苹果封锁Apple ID。
 
 ```
-Home Desktop   : i3-8400, ASUS B360M-A, 8G*2 DDR4 G.Skill, Yeston Gaming RX570 4G, Intel 760p M.2 NVMe, macOS10.15.4
+Home Desktop   : i3-8400, ASUS B360M-A, 8G*2 DDR4 G.Skill, Yeston Gaming RX570 4G, Intel 760p M.2 NVMe, macOS10.15.5
 Office Desktop : i3-8100, Onda H310 ITX, 8G*2 DDR3 Onda, Intel 540s M.2 Sata, macOS10.15.4
 Laptop         : Thinkpad T450, i5-5300u, 8G*2 DDR3L, mSata 256G, macOS10.15.3
 Former Desktop : i3-8100, MSI B360M Fire, 8G*2 DDR4 corsair, Yeston RX570 4G, Intel 760p M.2 NVMe, macOS10.15.2 (deprecated)
@@ -37,4 +37,4 @@ Former Desktop : Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macO
 - 声卡：一般去AppleALC的[wiki](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)里面找你的声卡对应的layout_id，写到Devices->Audio->Inject里面。我用过的2块主板都是ALC887，用的11。
 - 显卡：核显可以找小兵大大的博客，使用Hackintool打显卡的patch。AMD RX4xx/RX5xx系列可以直接WhateverGreen.kext+Lilu.kext进行驱动。
 - USB：一般USBInjectAll.kext直接可以驱动，不行的可以试试在Acpi->Patches里面加上`change EHC1 to EH01` `change EHC2 to EH02`，在Kernel_and_kexts_patches里面加上usb port limit patch。
-- 网卡：有线一般放一个kexts就能驱动。无线网卡一般选用USB WIFI或者m.2 WIFI。USB可以选CF-811AC，[官方最新驱动](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=396)支持catalina，也使用开源的[Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)软件驱动。m.2可以选择便宜的DW1820A，可以参考小兵大大的博客；还可以选择贵一些的Mac拆机网卡。
+- 网卡：有线一般放一个kexts就能驱动。无线网卡一般选用USB WIFI或者m.2 WIFI。USB可以选CF-811AC，[官方最新驱动](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=396)支持catalina，也使用开源的[Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)软件驱动。m.2可以选择Mac拆机网卡BCM94360CS2便宜。
