@@ -15,6 +15,9 @@
 
 ## Releases Log
 
+## 20200530: 不再支持
+  - EFI在10.15.3系统下还算比较稳定。迫于机器被收回，无法支持了。EFI下载地址：https://github.com/shm007g/hackintosh_handcraft/releases/tag/20200320 
+
 ## 20200320: fix耳机孔爆音，睡眠
   - 爆音：使用EFI/alc_fix/install.sh安装，把/bin/ALCPlugFix加入到启动项，这样每次启动都能修复
   - 睡眠通过添加kext fix
