@@ -1,1 +1,0 @@
-Icons for the theme.
