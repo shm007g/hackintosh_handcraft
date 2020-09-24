@@ -2,7 +2,7 @@
 
 | Item | Spec |
 |:------|:------|
-|系统   | macOS 10.15.5 Catalina |
+|系统   | macOS 10.15.6 Catalina |
 |处理器 | Intel Core i5-8400 @ 2.8GHz |
 |主板   | Asus Prime B360M-A |
 |内存   | G.Skill 8G * 2 DDR4 |
@@ -14,6 +14,8 @@
 
 
 ## Releases Log
+
+#### 202009: 升级10.15.6
 
 #### 20200527: 升级10.15.5
 
