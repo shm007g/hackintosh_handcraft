@@ -2,7 +2,7 @@
 
 | Item | Spec |
 |:------|:------|
-|系统   | macOS 10.15.6 Catalina |
+|系统   | macOS 10.15.7 Catalina |
 |处理器 | Intel Core i5-8400 @ 2.8GHz |
 |主板   | Asus Prime B360M-A |
 |内存   | G.Skill 8G * 2 DDR4 |
@@ -14,6 +14,9 @@
 
 
 ## Releases Log
+
+#### 20201111: 升级10.15.7和补充更新
+- 升级补充更新后，不能关机，强制关机后音量丢失；进入windows后重新进macos系统解决。
 
 #### 202009: 升级10.15.6
 
