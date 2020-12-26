@@ -7,8 +7,9 @@
 **使用必知**：请使用Clover Configurator在SMBIOS中替换一个新的Serial Number以“洗白”。同时也可以避免多账户使用同一个Serial Number被苹果封锁Apple ID。
 
 ```
-Home Desktop   : i3-8400, ASUS B360M-A, 8G*2 DDR4 G.Skill, Yeston Gaming RX570 4G, Intel 760p M.2 NVMe, macOS10.15.7
-Office Desktop : i3-8100, Onda H310 ITX, 8G*2 DDR3 Onda, Intel 540s M.2 Sata, macOS10.15.4
+Home Desktop   : i3-8400, ASUS B360M-A, G.Skill DDR4, Yeston RX 570 GAMEACE 4G, macOS10.15.7
+Home Laptop    : Dell Latitude 5490, i5-8250U, macOS10.15.4
+Office Desktop : i3-8100, Onda H310 ITX, Onda DDR3, Intel 540s M.2 Sata, macOS10.15.4
 Former Laptop  : Thinkpad T450, i5-5300u, 8G*2 DDR3L, mSata 256G, macOS10.15.3 (deprecated)
 Former Desktop : i3-8100, MSI B360M Fire, 8G*2 DDR4 corsair, Yeston RX570 4G, Intel 760p M.2 NVMe, macOS10.15.2 (deprecated)
 Former Desktop : Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macOS10.15.2 (deprecated)
@@ -22,7 +23,7 @@ Former Desktop : Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macO
 - RTLWlanU_MacOS10.11_MacOS10.15_Driver_1830.32.b13_1827.4.b36_UI_5.0.9.b6.zip: 1个USB WiFi驱动。
 - CPU-S: 变频测试。
 - IntelPowerGadget: Intel官方硬件监测软件。
-- neofetch: 查看系统spec
+- neofetch: 查看系统spec，使用pip安装。
 - 查看cpu核心数: `sysctl hw.physicalcpu`, `sysctl hw.logicalcpu`
 - 查看空余内存: `alias free="top -l 1 -s 0 | grep PhysMem"`
 
@@ -41,3 +42,4 @@ Former Desktop : Dell 9020m, i5-4670T, 4G*2 DDR3L Samsung, Samsung 850 EVO, macO
   - 有线一般放一个相应厂商的kexts就能驱动。
   - USB WIFI 我用的是CF-811AC，[官方最新驱动](http://www.comfast.cn/index.php?m=content&c=index&a=show&catid=30&id=396)支持catalina，也使用开源的[Wireless USB Adapter Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover/releases)软件驱动。
   - 仅有m.2接口的博通网卡才能支持airdrop等，如果确实有需要，可以选择Mac拆机网卡BCM94360CS2等。会需要加入一些kexts或修改config文件，同时好像也有一定几率失败，具体可以参考小兵的blog。
+- OC vs Clover: 主要功能上Clover老当益壮，多系统支持更好。

@@ -3,8 +3,8 @@
 | Item | Spec |
 |:------|:------|
 |系统   | macOS 10.15.2 Catalina |
+|型号   | Dell OptiPlex 9020m |
 |处理器 | Intel i5-4670T (4) @ 2.30GHz |
-|主板   | Dell OptiPlex 9020m |
 |内存   | Samsung 4G*2 DDR3L-1600MHz |
 |硬盘   | Samsung 256G 850 EVO |
 |显卡   | Intel HD Graphics 4600 |
