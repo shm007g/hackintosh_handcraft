@@ -8,18 +8,21 @@
 |内存   | SK Hynix DDR4 8G * 2 |
 |硬盘   | SK hynix SC311 SATA 256GB|
 |显卡   | Intel UHD Graphics 620 |
-|网卡   | Intel® Ethernet I219-LM + Intel® Dual Band Wireless-AC 8265 |
-|外置网卡| CF-811AC USB WiFi |
+|网卡   | Intel® Ethernet I219-LM + Broadcom BCM94360CS2 |
 |声卡   | Realtek® ALC3246 Codec |
 |Clover版本| r5119 |
 
 
 ## Releases Log
 
+#### 20210220: 微调
+- 升级Kexts
+- 根据[RehabMan的办法](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightfixup-kext.218222/)，显示器内屏亮度还是无法调节
+
 #### 20201226: 基本装机完成
-- 安装系统：参考[tonymacx86的install guide](https://www.tonymacx86.com/threads/unibeast-install-macos-catalina-on-any-supported-intel-based-pc.285366/)；下载catalina 10.15.4 dmg镜像，安装成Applications；F12配置笔记本BIOS；使用Unibeast 10.3.0制作安装U盘。安装U盘引导出问题，搜索得到[解决办法](https://www.tonymacx86.com/threads/catalina-cant-reach-installer.306933/page-2)；格式化硬盘为AppleFS进行安装，安装完成。第一次进入系统需要无线键盘和鼠标配置macOS系统。用Clover Configurator从U盘里面把EFI拷贝到系统盘的ESP目录，进入Windows使用EasyUEFI新增加一个MacOS引导项，添加`EFI/BOOT/BOOTX64.efi`文件；重新启动电脑从MacOS引导进入。
+- 安装系统：参考[tonymacx86的install guide](https://www.tonymacx86.com/threads/unibeast-install-macos-catalina-on-any-supported-intel-based-pc.285366/)；下载catalina 10.15.4 dmg镜像，安装成Applications；F12配置笔记本BIOS；使用Unibeast 10.3.0 制作安装U盘。安装U盘引导出问题，搜索得到[解决办法](https://www.tonymacx86.com/threads/catalina-cant-reach-installer.306933/page-2)；格式化硬盘为AppleFS进行安装，安装完成。第一次进入系统需要无线键盘和鼠标配置macOS系统。用Clover Configurator从U盘里面把EFI拷贝到系统盘的ESP目录，进入Windows使用EasyUEFI新增加一个MacOS引导项，添加`EFI/BOOT/BOOTX64.efi`文件；重新启动电脑从MacOS引导进入。
 - 安装驱动：
-  - （1）使用MultiBeast 12.3.0进行通用驱动的安装；使用Hackintools-内核扩展补气最新的通用驱动：IntelMausi网卡驱动，WEG驱动，USBInjectAll驱动，VirtualSMC系列驱动尤其SMCBatteryManager.kext，效能提升安装CPUFriend.kext和NoTouchID.kext，Intel蓝牙驱动IntelBluetoothFirmware.kext和IntelBluetoothInjector.kext。
+  - （1）使用MultiBeast 12.3.0 进行通用驱动的安装；使用Hackintools-内核扩展补气最新的通用驱动：IntelMausi网卡驱动，WEG驱动，USBInjectAll驱动，VirtualSMC系列驱动尤其SMCBatteryManager.kext，NoTouchID.kext，Intel蓝牙驱动IntelBluetoothFirmware.kext和IntelBluetoothInjector.kext。
   - （2）键盘触摸板驱动：VoodooPS2Controller.kext和VoodooI2C开头的2个驱动，需要配合config文件。我试了几次触摸板一直不能用，就直接借鉴了[eduardoborges
 /
 latitude-5490-hackintosh](https://github.com/eduardoborges/latitude-5490-hackintosh)的config.plist, ACPI/patched, kexts 文件夹。

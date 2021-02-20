@@ -201,30 +201,28 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>XMPDetection</key>
-		<string>Yes</string>
 		<key>NeverHibernate</key>
 		<false/>
-		<key>Arguments</key>
-		<string>-v</string>
+		<key>Legacy</key>
+		<string>PBR</string>
 		<key>DisableCloverHotkeys</key>
 		<false/>
+		<key>NoEarlyProgress</key>
+		<false/>
+		<key>Debug</key>
+		<false/>
+		<key>HibernationFixup</key>
+		<true/>
 		<key>Secure</key>
+		<false/>
+		<key>XMPDetection</key>
+		<string>Yes</string>
+		<key>RtcHibernateAware</key>
 		<false/>
 		<key>Timeout</key>
 		<integer>1</integer>
-		<key>NoEarlyProgress</key>
-		<false/>
-		<key>RtcHibernateAware</key>
-		<false/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>HibernationFixup</key>
-		<true/>
-		<key>Legacy</key>
-		<string>PBR</string>
-		<key>Debug</key>
-		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -257,7 +255,7 @@
 			<false/>
 		</dict>
 		<key>Theme</key>
-		<string>tonymacx86</string>
+		<string>Minimalism</string>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -274,34 +272,34 @@
 		<key>#AddProperties</key>
 		<array>
 			<dict>
+				<key>Key</key>
+				<string>hda-gfx</string>
+				<key>Value</key>
+				<data>b25ib2FyZC0xAA==</data>
+				<key>Comment</key>
+				<string>hda-gfx=onboard-1 for HDMI audio</string>
 				<key>Device</key>
 				<string>IntelGFX</string>
-				<key>Value</key>
-				<data>b25ib2FyZC0xAA==</data>
-				<key>Key</key>
-				<string>hda-gfx</string>
-				<key>Comment</key>
-				<string>hda-gfx=onboard-1 for HDMI audio</string>
 			</dict>
 			<dict>
-				<key>Device</key>
-				<string>HDA</string>
-				<key>Value</key>
-				<data>b25ib2FyZC0xAA==</data>
 				<key>Key</key>
 				<string>hda-gfx</string>
+				<key>Value</key>
+				<data>b25ib2FyZC0xAA==</data>
 				<key>Comment</key>
 				<string>hda-gfx=onboard-1 for HDMI audio</string>
-			</dict>
-			<dict>
 				<key>Device</key>
 				<string>HDA</string>
-				<key>Value</key>
-				<data>AwAAAA==</data>
+			</dict>
+			<dict>
 				<key>Key</key>
 				<string>layout-id</string>
+				<key>Value</key>
+				<data>AwAAAA==</data>
 				<key>Comment</key>
 				<string>layout-id=3</string>
+				<key>Device</key>
+				<string>HDA</string>
 			</dict>
 			<dict>
 				<key>Key</key>
