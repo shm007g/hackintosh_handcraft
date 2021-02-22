@@ -23,6 +23,9 @@
 ## Releases Log
 
 
+#### 20210222: 
+  - 升级Kexts到最新版本；加载Intel蓝牙驱动，准备装配一块闲置的Intel的网卡蓝牙一体卡。
+
 #### 20200331: 平滑升级catalina 10.15.4
   - 升级CLover到5107(否则卡加号)，重启进入“Boot Macos Install From Data” 平滑升级catalina
 
